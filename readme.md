@@ -4,7 +4,7 @@
 
 En este ejercicio, crearemos una aplicación simple de administración de productos usando JavaScript. Usaremos los test unitarios para asegurarnos de que nuestro código funcione según lo esperado. Para nuestro testing usaremos Jest.
 
-Aprovechando la práctica de desarrollo guiado por test (TDD), primero escribiremos los test unitarios y luego escribiremos el código para que los test pasen. Podéis ir teesteando las funciones a medida que las vayáis implementando o bien escribir todos los test y luego implementar las funciones.
+Aprovechando la práctica de desarrollo guiado por test (TDD), primero escribiremos los test unitarios y luego escribiremos el código para que los test pasen. Podéis ir testeando las funciones a medida que las vayáis implementando o bien escribir todos los test y luego implementar las funciones.
 
 El objetivo es aprender a escribir test unitarios para funciones simples, por lo que el modo de implementación de las funciones es libre, siempre y cuando se cumplan los requisitos de los test.
 
@@ -144,7 +144,7 @@ Para crear cada producto puedes hacer lo siguiente:
 let products = []; // declaramos una variable products vacía
 let id = 0; // declaramos una variable id con valor 0
 ```
-Piensa bien lo que hace cada función que vamos a crear como añadir, borrar, actualizar... y saber como preaprar esos tests y esas funciones.
+Piensa bien lo que hace cada función que vamos a crear como añadir, borrar, actualizar... y saber como preparar esos tests y esas funciones.
 
 Decide la mejor manera de hacerlo. Sientete libre y toma tus propias decisiones para crearlo todo en base a lo que pide el ejercicio.
 
