@@ -24,6 +24,7 @@ const addProduct = (name, price) => {
     }
     id++;
     products.push({id, name, price});
+    getProducts();
     
 }
 
@@ -33,8 +34,8 @@ const removeProduct = (productId) => {
         throw new Error('Product not found');
     }
     products.splice(index, 1);
+    getProducts();
 }
-
 
 const getProduct = (productId) => {
     const findProduct = products.find(product => product.id === productId);
@@ -52,6 +53,7 @@ const updateProduct = (id, name, price) => {
     if(price) {
         products[index].price = price;
     }
+    getProducts();
 }
 
 module.exports = {
